@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
 })
 export class FirebaseService {
 
-  url="https://admissionportal-5e8cf.firebaseio.com/studentDetails.json";
+  url="";
   constructor(private _http:HttpClient) { }
 
   sendNewEntry(data){
