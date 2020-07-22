@@ -1,0 +1,17 @@
+.title{
+  font-family: 'Fredoka One', cursive;
+  /* font-family: 'Libre Baskerville', serif; */
+  /* font-family: 'Libre Baskerville', serif; */
+}
+.h2{
+  /* font-family: 'Fredoka One', cursive; */
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Libre Baskerville', serif;
+}
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched{
+  border: 2px solid red;
+}
+input.ng-valid,select.ng-valid{
+  border: 2px solid green;
+}
