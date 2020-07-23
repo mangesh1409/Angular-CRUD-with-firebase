@@ -30,12 +30,11 @@ export class FirebaseService {
     return userArray}));
   }
   deleteEntry(id){
-    //  console.log('https://admissionportal-5e8cf.firebaseio.com/studentDetails/'+ id+'.json');
-    //this._http.get('https://admissionportal-5e8cf.firebaseio.com/studentDetails/'+ id+'.json');
-     return this._http.delete('https://admissionportal-5e8cf.firebaseio.com/studentDetails/'+ id+'.json');
+    //  console.log('');
+    return this._http.delete('https);
   }
   updateEntry(id,data){
-    return this._http.put('https://admissionportal-5e8cf.firebaseio.com/studentDetails/'+ id+'.json',data);
+    return this._http.put('https://admissi);
   }
 
 }
